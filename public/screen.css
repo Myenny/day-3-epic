@@ -3,7 +3,43 @@ html {
 }
 
 body {
+  background-image: url("https://i.pinimg.com/564x/40/dc/ba/40dcbad925e3f2786348c53a3e82e8a8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
-  min-height: 100%;
   font: 16px / 1 sans-serif;
+  color: white;
+}
+header {
+  background-color: rgb(255, 218, 99);
+  padding: 30px 10px;
+}
+nav {
+  margin: 2px auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: -5px;
+}
+nav li {
+  width: auto;
+  padding: 1.5em;
+  margin: -5px;
+  background: rgb(255, 200, 53);
+  border: 6px solid rgb(245, 219, 163);
+}
+h1 {
+  margin: 4em;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+}
+p {
+  display: flex;
+  justify-content: center;
 }
